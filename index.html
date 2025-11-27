@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Hibou Blond - Microbrasserie Artisanale d'Essonne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cursor personnalisé minimaliste -->
+    <div class="cursor"></div>
+
+    <!-- Particules de fond -->
+    <div id="particles"></div>
+
+    <!-- Loader -->
+    <div class="loader">
+        <div class="owl-loader">🦉</div>
+        <div class="loader-text">Le Hibou Blond</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-circle">
+                    <span class="owl-icon">🦉</span>
+                </div>
+                <span class="logo-text">Le Hibou Blond</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#histoire" class="nav-link">Notre Histoire</a></li>
+                <li><a href="#bieres" class="nav-link">Nos Bières</a></li>
+                <li><a href="#engagements" class="nav-link">Engagements</a></li>
+                <li><a href="#visite" class="nav-link">Nous Visiter</a></li>
+            </ul>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <img src="TEMPLATE_LHB.webp" alt="Illustration Brasserie Le Hibou Blond" class="hero-illustration" data-aos="fade-down" data-aos-duration="1000">
+         <div class="hero-subtitle" data-aos="fade-up">Microbrasserie Artisanale • Essonne</div>
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">
+                <span class="word">Des</span>
+                <span class="word">Bières</span>
+                <span class="word">qui</span>
+                <span class="word">ont</span>
+                <span class="word">du</span>
+                <span class="word highlight">Sens</span>
+            </h1>
+            <p class="hero-description" data-aos="fade-up" data-aos-delay="400">
+                Produire des bières artisanales dans le respect de l'homme et de l'environnement
+            </p>
+            <div class="hero-cta" data-aos="fade-up" data-aos-delay="600">
+                <a href="#bieres" class="btn btn-primary">
+                    <span>Découvrir</span>
+                    <svg viewBox="0 0 24 24" width="20" height="20">
+                        <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
+                    </svg>
+                </a>
+                <a href="#visite" class="btn btn-outline">
+                    <span>Nous Rencontrer</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- Histoire Section -->
+    <section id="histoire" class="histoire">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-number">01</span>
+                <h2 class="section-title">Notre Histoire</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="histoire-content">
+                <div class="histoire-text" data-aos="fade-right">
+                    <div class="text-block">
+                        <h3>Le Hibou Blond</h3>
+                        <p>Une microbrasserie située à <strong>Villemoisson-sur-Orge (Essonne - 91)</strong> qui mêle subtilement des idées aussi fraîches qu'une bonne bière artisanale, des engagements aussi essentiels qu'une baguette de pain et une expertise aussi solidement ancrée que les racines du houblon.</p>
+                    </div>
+                    <div class="text-block">
+                        <h3>Notre Philosophie</h3>
+                        <p>Partager un moment convivial autour d'une bière, entre amis, en famille ou avec vos collègues, c'est bien ! Mais sans renier vos positions sur les questions environnementales et l'économie locale, c'est mieux !</p>
+                    </div>
+                    <div class="text-block">
+                        <h3>Notre Mission</h3>
+                        <p>Produire des bières qui ont du sens, dans le respect de l'homme et de l'environnement. Encourager le travail et la réflexion collaborative pour stimuler l'innovation. Limiter notre impact environnemental tout en laissant parler une créativité débridée.</p>
+                    </div>
+                </div>
+
+                <div class="histoire-stats" data-aos="fade-left">
+                    <div class="stat-card">
+                        <div class="stat-icon">📅</div>
+                        <div class="stat-number" data-target="2023">0</div>
+                        <div class="stat-label">Année de création</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🍺</div>
+                        <div class="stat-number" data-target="7">0</div>
+                        <div class="stat-label">Recettes artisanales</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🌱</div>
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">% Artisanal & Local</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">♻️</div>
+                        <div class="stat-number" data-target="0">0</div>
+                        <div class="stat-label">Gaspillage</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bières Section -->
+    <section id="bieres" class="bieres">
+        <div class="bieres-bg"></div>
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Nos Créations</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <!-- Filtres -->
+            <div class="filters" data-aos="fade-up" data-aos-delay="200">
+                <button class="filter-btn active" data-filter="all">
+                    <span>Toutes</span>
+                </button>
+                <button class="filter-btn" data-filter="ipa">
+                    <span>IPA</span>
+                </button>
+                <button class="filter-btn" data-filter="blonde">
+                    <span>Blonde</span>
+                </button>
+                <button class="filter-btn" data-filter="ambree">
+                    <span>Ambrée</span>
+                </button>
+                <button class="filter-btn" data-filter="blanche">
+                    <span>Blanche</span>
+                </button>
+                <button class="filter-btn" data-filter="stout">
+                    <span>Stout</span>
+                </button>
+                <button class="filter-btn" data-filter="neipa">
+                    <span>NEIPA</span>
+                </button>
+                <button class="filter-btn" data-filter="fruitee">
+                    <span>Fruitée</span>
+                </button>
+            </div>
+
+            <!-- Grille de bières -->
+            <div class="bieres-grid">
+                <!-- IPA -->
+                <div class="biere-card" data-category="ipa" data-aos="zoom-in">
+                    <div class="biere-image">
+                        <img src="IPA2-500x582.jpg.webp" alt="Remousse IPA">
+                        <div class="biere-overlay"></div>
+                    </div>
+                    <div class="biere-content">
+                        <span class="biere-category">IPA</span>
+                        <h3 class="biere-name">Remousse IPA</h3>
+                        <p class="biere-desc">Bière artisanale (6,7% vol) aux houblons cultivés en France, connue pour ses saveurs houblonnées et son amertume prononcée. Née d'un partenariat avec une boulangerie artisanale d'Île-de-France pour valoriser les coproduits de pain.</p>
+                        <div class="biere-specs">
+                            <span class="spec">🍺 6,7% vol</span>
+                            <span class="spec">💰 3,50€ - 6,00€</span>
+                        </div>
+                        <div class="biere-formats">
+                            <span class="format">33cl : 3,50€</span>
+                            <span class="format">50cl : 6,00€</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ambrée -->
+                <div class="biere-card" data-category="ambree" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="biere-image">
+                        <img src="ambree2-500x578.jpg.webp" alt="Remousse Ambrée">
+                        <div class="biere-overlay"></div>
+                    </div>
+                    <div class="biere-content">
+                        <span class="biere-category">Amber Ale</span>
+                        <h3 class="biere-name">Remousse Ambrée</h3>
+                        <p class="biere-desc">Bière ambrée artisanale (6,6% vol) à la couleur cuivrée et aux saveurs complexes grâce à la valorisation de marc de pommes d'origine France. Elle offre une expérience gustative unique et puissante.</p>
+                        <div class="biere-specs">
+                            <span class="spec">🍺 6,6% vol</span>
+                            <span class="spec">💰 3,50€ - 6,00€</span>
+                        </div>
+                        <div class="biere-formats">
+                            <span class="format">33cl : 3,50€</span>
+                            <span class="format">50cl : 6,00€</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blonde -->
+                <div class="biere-card" data-category="blonde" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="biere-image">
+                        <img src="Blonde-500x569.png.webp" alt="Remousse Blonde">
+                        <div class="biere-overlay"></div>
+                    </div>
+                    <div class="biere-content">
+                        <span class="biere-category">Blonde Ale</span>
+                        <h3 class="biere-name">Remousse Blonde</h3>
+                        <p class="biere-desc">Bière blonde artisanale (6,3% vol) qui séduit par sa robe jaune paille éclatante. Brassée avec soin pour offrir une expérience gustative équilibrée et rafraîchissante !</p>
+                        <div class="biere-specs">
+                            <span class="spec">🍺 6,3% vol</span>
+                            <span class="spec">💰 3,50€ - 6,00€</span>
+                        </div>
+                        <div class="biere-formats">
+                            <span class="format">33cl : 3,50€</span>
+                            <span class="format">50cl : 6,00€</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blanche -->
+                <div class="biere-card" data-category="blanche" data-aos="zoom-in">
+                    <div class="biere-image">
+                        <img src="blanche2-500x582.jpg.webp" alt="Remousse Blanche">
+                        <div class="biere-overlay"></div>
+                    </div>
+                    <div class="biere-content">
+                        <span class="biere-category">Witbier</span>
+                        <h3 class="biere-name">Remousse Blanche</h3>
+                        <p class="biere-desc">Bière blanche artisanale (6,7% vol) avec un voile élégant et des éclats d'agrumes raffinés grâce à des houblons cultivés en France, offrant une expérience gustative unique et rafraîchissante.</p>
+                        <div class="biere-specs">
+                            <span class="spec">🍺 6,7% vol</span>
+                            <span class="spec">💰 3,50€ - 6,00€</span>
+                        </div>
+                        <div class="biere-formats">
+                            <span class="format">33cl : 3,50€</span>
+                            <span class="format">50cl : 6,00€</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stout -->
+                <div class="biere-card" data-category="stout" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="biere-image">
+                        <img src="stout2-500x577.jpg.webp" alt="Remousse Stout">
+                        <div class="biere-overlay"></div>
+                    </div>
+                    <div class="biere-content">
+                        <span class="biere-category">Stout</span>
+                        <h3 class="biere-name">Remousse Stout</h3>
+                        <p class="biere-desc">Bière brune artisanale (5,8% vol) au goût de café, une expérience unique et riche ! Elle est légère et accessible, tout en faisant un petit geste pour la planète !</p>
+                        <div class="biere-specs">
+                            <span class="spec">🍺 5,8% vol</span>
+                            <span class="spec">💰 3,50€</span>
+                        </div>
+                        <div class="biere-formats">
+                            <span class="format">33cl : 3,50€</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NEIPA -->
+                <div class="biere-card" data-category="neipa" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="biere-image">
+                        <img src="timut2-500x471.jpg.webp" alt="Timut NEIPA">
+                        <div class="biere-overlay"></div>
+                    </div>
+                    <div class="biere-content">
+                        <span class="biere-category">NEIPA / Hazy</span>
+                        <h3 class="biere-name">Timut NEIPA</h3>
+                        <p class="biere-desc">Bière artisanale éphémère (4,25% vol) de type NEIPA sur base blonde boostée au poivre de Timut et houblons français. Équilibrée et rafraîchissante, parfaite pour les amateurs de bières aromatiques peu amères avec une touche d'originalité. 🍻</p>
+                        <div class="biere-specs">
+                            <span class="spec">🍺 4,25% vol</span>
+                            <span class="spec">💰 3,50€ - 6,00€</span>
+                        </div>
+                        <div class="biere-formats">
+                            <span class="format">33cl : 3,50€</span>
+                            <span class="format">50cl : 6,00€</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pinky Blinders -->
+                <div class="biere-card" data-category="fruitee" data-aos="zoom-in">
+                    <div class="biere-image">
+                        <img src="pinky2-500x434.jpg.webp" alt="Pinky Blinders">
+                        <div class="biere-overlay"></div>
+                    </div>
+                    <div class="biere-content">
+                        <span class="biere-category">Bière Fruitée</span>
+                        <h3 class="biere-name">Pinky Blinders</h3>
+                        <p class="biere-desc">Bière artisanale éphémère (5,45% vol) de type fruité sur base blonde sublimée par l'ajout de framboises entières à la fermentation. Équilibrée et rafraîchissante mais non sucrée, parfaite pour ceux qui apprécient les bières fruitées sans le goût du sucre !</p>
+                        <div class="biere-specs">
+                            <span class="spec">🍺 5,45% vol</span>
+                            <span class="spec">💰 3,50€ - 6,00€</span>
+                        </div>
+                        <div class="biere-formats">
+                            <span class="format">33cl : 3,50€</span>
+                            <span class="format">50cl : 6,00€</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Engagements Section -->
+    <section id="engagements" class="engagements">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Nos Engagements</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="engagements-grid">
+                <div class="engagement-card" data-aos="flip-left">
+                    <div class="engagement-icon-wrapper">
+                        <div class="engagement-icon">🌱</div>
+                    </div>
+                    <h3>Local & Raisonné</h3>
+                    <p>Consommation locale, bio ou raisonnée. Des ingrédients français et des circuits courts pour soutenir notre économie locale et garantir la qualité. Houblons cultivés en France.</p>
+                </div>
+
+                <div class="engagement-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="engagement-icon-wrapper">
+                        <div class="engagement-icon">♻️</div>
+                    </div>
+                    <h3>Anti-Gaspillage</h3>
+                    <p>Lutte active contre le gaspillage alimentaire. Valorisation des coproduits de pain via partenariat avec une boulangerie artisanale d'Île-de-France et des drêches du brassage.</p>
+                </div>
+
+                <div class="engagement-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="engagement-icon-wrapper">
+                        <div class="engagement-icon">🎨</div>
+                    </div>
+                    <h3>Créativité</h3>
+                    <p>Une créativité débridée au service de l'innovation. Collaboration et réflexion collective pour ne jamais se prendre trop au sérieux tout en créant des bières uniques.</p>
+                </div>
+
+                <div class="engagement-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="engagement-icon-wrapper">
+                        <div class="engagement-icon">🌍</div>
+                    </div>
+                    <h3>Respect</h3>
+                    <p>Production dans le respect de l'homme et de l'environnement. Limitation de notre impact écologique à chaque étape du processus tout en privilégiant le goût.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visite Section -->
+    <section id="visite" class="visite">
+        <div class="visite-bg"></div>
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Nous Rencontrer</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="visite-content">
+                <div class="visite-info" data-aos="fade-right">
+                    <h3>Venez découvrir notre univers</h3>
+                    <p>Nous organisons régulièrement des <strong>visites de la brasserie</strong>, des <strong>ateliers de brassage</strong> et participons aux <strong>marchés et festivals</strong> de la région.</p>
+                    <p>C'est l'occasion de partager notre passion, déguster nos créations et échanger autour de notre savoir-faire artisanal dans une ambiance conviviale.</p>
+
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <strong>Adresse</strong>
+                                <p>116 Route de Corbeil<br>91360 Villemoisson-sur-Orge<br>France</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <strong>Téléphone</strong>
+                                <p><a href="tel:0649774496">06 49 77 44 96</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div>
+                                <strong>Email</strong>
+                                <p><a href="mailto:lehiboublond@gmail.com">lehiboublond@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                   <div class="social-links">
+                        <a href="https://www.facebook.com/people/Microbrasserie-Le-Hibou-Blond/61575068460156/?mibextid=wwXIfr&rdid=deaFJyrK5ZvkxCwI&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F15zGUWPLMF%2F%3Fmibextid%3DwwXIfr" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        
+                        <a href="https://www.instagram.com/le_hibou_blond?igsh=MXZvZmxsY2E4cm1oMA==" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="visite-map" data-aos="fade-left">
+                    <div class="map-placeholder">
+                        <div class="map-icon">📍</div>
+                        <p>116 Route de Corbeil<br>Villemoisson-sur-Orge</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-circle">
+                        <span class="owl-icon">🦉</span>
+                    </div>
+                    <span>Le Hibou Blond</span>
+                </div>
+                <p class="footer-tagline">Des bières qui ont du sens</p>
+                <p class="footer-warning">L'abus d'alcool est dangereux pour la santé. À consommer avec modération.</p>
+                <p class="footer-copyright">&copy; 2025 Le Hibou Blond - Microbrasserie Artisanale</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
